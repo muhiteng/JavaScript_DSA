@@ -4,7 +4,10 @@ class LinkeList {
     this.value = val;
     this.next = null;
   }
- 
+  addFirst(data) {
+    // here data and next
+    this.head = new Node(data, this.head);
+  }
  
   
 }
