@@ -21,4 +21,4 @@ node.addFirst(10);
 node.addFirst(20);
 node.addFirst(30);
 
-console.log(node);
+console.log(JSON.stringify(node,null,2));
